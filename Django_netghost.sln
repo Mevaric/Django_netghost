@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Django_netghost", "Django_netghost\Django_netghost.pyproj", "{4D199F79-95AD-42FC-82D4-27607E5F7BC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D199F79-95AD-42FC-82D4-27607E5F7BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D199F79-95AD-42FC-82D4-27607E5F7BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D199F79-95AD-42FC-82D4-27607E5F7BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D199F79-95AD-42FC-82D4-27607E5F7BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {132F40F7-B991-4DE6-A11A-55804A739706}
+	EndGlobalSection
+EndGlobal
