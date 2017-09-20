@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_comments',
+    'django.contrib.sites',
+    'taggit',
+    'bootstrap3',
 ]
 
 MIDDLEWARE_CLASSES = [

@@ -24,7 +24,9 @@ class Blog(models.Model):
         verbose_name_plural = "статьи блога"
 
 # Create your models here.
-from django.contrib.comments.moderation import CommentModerator, moderator
+#from django.contrib.comments.moderation import CommentModerator, moderator
+#from django_comments.moderation import CommentModerator, moderator
+from django_comments.moderation import CommentModerator, moderator
 class BlogModerator(CommentModerator):
     email_notification = True
     enable_field = "is_commentable"
