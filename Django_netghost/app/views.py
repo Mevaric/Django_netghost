@@ -6,7 +6,9 @@ from django.shortcuts import render
 from django.http import HttpRequest
 from django.template import RequestContext
 from datetime import datetime
-
+from app.models import Blog
+from django.db.models import Q
+"""from generic.conrollers import PageNumberView"""
 def home(request):
     """Renders the home page."""
     assert isinstance(request, HttpRequest)
